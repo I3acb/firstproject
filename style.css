@@ -113,7 +113,7 @@ a:hover {
     height: 100px;
 }
 
-.plat:hover {
+.plat:hover, button:hover {
     -webkit-box-shadow: 0px 5px 10px 2px #5A9645;
     -moz-box-shadow: 0px 5px 10px 2px #5A9645;
     box-shadow: 0px 5px 10px 2px #5A9645;
@@ -126,4 +126,87 @@ a:hover {
     gap: 10px;
     margin-top: 10px;
     font-size: 14px;
+}
+
+.forma {
+    margin-top: 70px;
+    border: 1px solid #5A9645;
+    border-radius: 5px;
+    background-color: #5A9645;
+    padding: 6px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pisat {
+    margin-top: 15px;
+    
+}
+.verh {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    height: 35px;
+    font-size: 14px;
+    
+}
+
+.pisu {
+    border: 1px solid #B8B8B8;
+    border-radius: 5px;
+}
+
+::placeholder {
+    color: #C1C1C1;
+}
+
+.pisu:focus-visible {
+    outline: none;
+}
+
+.nizz {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100px;
+    font-size: 14px;
+}
+
+.pisut {
+    border: 1px solid #B8B8B8;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.pisut:focus-visible {
+    outline: none;
+}
+
+textarea, input {
+    padding: 10px;
+}
+
+button {
+    margin-top: 15px;
+    border: 1px solid #5A9645;
+    border-radius: 5px;
+    background-color: #5A9645;
+    padding: 6px;
+    color: white;
+    width: 125px;
+    height: 35px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
